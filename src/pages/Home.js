@@ -21,8 +21,6 @@ const Home = () => {
     }
     Fetch()
   }, [])
-
-  console.log(data);
 if(loader && loading )
 return null;
   if(loading && !loader){

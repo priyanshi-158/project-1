@@ -2,6 +2,12 @@ import React from 'react'
 import { useStyletron } from 'baseui';
 const Card1 = () => {
     const [css] = useStyletron();
+    const epochTime = 1501620403200; 
+const dateObject = new Date(epochTime);
+const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
+const formattedDate = `${dateObject.getDate()} ${months[dateObject.getMonth()]} ${dateObject.getFullYear()}`
+
+console.log(formattedDate);
     return (
         <div className={css({
             display: 'flex',
@@ -36,7 +42,7 @@ const Card1 = () => {
                     fontSize: '16px',
                     fontWeight: '400',
                     marginTop: '0px'
-                })}>27 Mar 2023</p>
+                })}>{formattedDate}</p>
             </div>
             <div className={
                 css({
