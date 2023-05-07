@@ -31,9 +31,9 @@ const Goldcard = () => {
                     Text: {
                         style: {
                             '@font-face': {
-                        fontFamily: "manrope",
-                        src: 'url("/static/Manrope-Regular.ttf")'
-                    },
+                                fontFamily: "manrope",
+                                src: 'url("/static/Manrope-Regular.ttf")'
+                            },
                             fontSize: '14px',
                             fontWeight: '500'
                         }
@@ -48,18 +48,18 @@ const Goldcard = () => {
                 justifyContent: 'space-between',
                 margin: '10px',
                 padding: '24px',
-                borderBottom:'1px solid #FFFFFF'
+                borderBottom: '1px solid #FFFFFF'
             })}>
                 <div className={
                     css({
-                        width:'100%'
+                        width: '100%'
                     })
                 }>
                     <p className={css({
-                       '@font-face': {
-                        fontFamily: "manrope",
-                        src: 'url("/static/Manrope-Regular.ttf")'
-                    },
+                        '@font-face': {
+                            fontFamily: "manrope",
+                            src: 'url("/static/Manrope-Regular.ttf")'
+                        },
                         fontSize: '12px',
                         fontWeight: '400',
                         paddingBottom: '12px',
@@ -67,9 +67,9 @@ const Goldcard = () => {
                     })}>Milestone name</p>
                     <p className={css({
                         '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
+                            fontFamily: "open-sans",
+                            src: 'url("/static/OpenSans-Regular.ttf")'
+                        },
                         fontSize: '16px',
                         fontWeight: '400',
                         marginTop: '0px'
@@ -77,13 +77,13 @@ const Goldcard = () => {
                 </div>
                 <div className={
                     css({
-                        width:'100%'
+                        width: '100%'
                     })}>
                     <p className={css({
                         '@font-face': {
-                        fontFamily: "manrope",
-                        src: 'url("/static/Manrope-Regular.ttf")'
-                    },
+                            fontFamily: "manrope",
+                            src: 'url("/static/Manrope-Regular.ttf")'
+                        },
                         fontSize: '12px',
                         fontWeight: '400',
                         paddingBottom: '12px',
@@ -91,9 +91,9 @@ const Goldcard = () => {
                     })}>Item name</p>
                     <p className={css({
                         '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
+                            fontFamily: "open-sans",
+                            src: 'url("/static/OpenSans-Regular.ttf")'
+                        },
                         fontSize: '16px',
                         fontWeight: '400',
                         marginTop: '0px'
@@ -101,14 +101,14 @@ const Goldcard = () => {
                 </div>
                 <div className={
                     css({
-                        width:'100%'
+                        width: '100%'
                     })
                 }>
                     <p className={css({
                         '@font-face': {
-                        fontFamily: "manrope",
-                        src: 'url("/static/Manrope-Regular.ttf")'
-                    },
+                            fontFamily: "manrope",
+                            src: 'url("/static/Manrope-Regular.ttf")'
+                        },
                         fontSize: '12px',
                         fontWeight: '400',
                         paddingBottom: '12px',
@@ -116,9 +116,9 @@ const Goldcard = () => {
                     })}>Description</p>
                     <p className={css({
                         '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
+                            fontFamily: "open-sans",
+                            src: 'url("/static/OpenSans-Regular.ttf")'
+                        },
                         fontSize: '16px',
                         fontWeight: '400',
                         marginTop: '0px'
@@ -126,14 +126,14 @@ const Goldcard = () => {
                 </div>
                 <div className={
                     css({
-                        width:'100%'
+                        width: '100%'
                     })
                 }>
                     <p className={css({
-                       '@font-face': {
-                        fontFamily: "manrope",
-                        src: 'url("/static/Manrope-Regular.ttf")'
-                    },
+                        '@font-face': {
+                            fontFamily: "manrope",
+                            src: 'url("/static/Manrope-Regular.ttf")'
+                        },
                         fontSize: '12px',
                         fontWeight: '400',
                         paddingBottom: '12px',
@@ -141,9 +141,9 @@ const Goldcard = () => {
                     })}>Start date</p>
                     <p className={css({
                         '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
+                            fontFamily: "open-sans",
+                            src: 'url("/static/OpenSans-Regular.ttf")'
+                        },
                         fontSize: '16px',
                         fontWeight: '400',
                         marginTop: '0px'
@@ -157,41 +157,41 @@ const Goldcard = () => {
                 padding: '0 24px',
             })}>
                 <p className={css({
-                        '@font-face': {
+                    '@font-face': {
                         fontFamily: "open-sans",
                         src: 'url("/static/OpenSans-Regular.ttf")'
                     },
-                        fontSize: '16px',
-                        fontWeight: '400',
-                        width:'100%'
-                    })}>Moodboard</p>
+                    fontSize: '16px',
+                    fontWeight: '400',
+                    width: '100%'
+                })}>Moodboard</p>
                 <p className={css({
-                        '@font-face': {
+                    '@font-face': {
                         fontFamily: "open-sans",
                         src: 'url("/static/OpenSans-Regular.ttf")'
                     },
-                        fontSize: '16px',
-                        fontWeight: '400',
-                        width:'100%'
-                    })}>Palette</p>
-                <p  className={css({
-                        '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
-                        fontSize: '16px',
-                        fontWeight: '400',
-                        width:'100%'
-                    })}>-</p>
+                    fontSize: '16px',
+                    fontWeight: '400',
+                    width: '100%'
+                })}>Palette</p>
                 <p className={css({
-                        '@font-face': {
+                    '@font-face': {
                         fontFamily: "open-sans",
                         src: 'url("/static/OpenSans-Regular.ttf")'
                     },
-                        fontSize: '16px',
-                        fontWeight: '400',
-                        width:'100%'
-                    })}>27 Mar 2023</p>
+                    fontSize: '16px',
+                    fontWeight: '400',
+                    width: '100%'
+                })}>-</p>
+                <p className={css({
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
+                    fontSize: '16px',
+                    fontWeight: '400',
+                    width: '100%'
+                })}>27 Mar 2023</p>
             </div>
         </div>
     )

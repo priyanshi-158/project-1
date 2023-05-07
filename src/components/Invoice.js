@@ -49,7 +49,7 @@ const Invoice = () => {
                     color: '#333333'
                 })}>Proforma invoice Date</p>
                 <p className={css({
-                   '@font-face': {
+                    '@font-face': {
                         fontFamily: "manrope",
                         src: 'url("/static/Manrope-Regular.ttf")'
                     },
@@ -69,7 +69,7 @@ const Invoice = () => {
                     color: '#333333'
                 })}>Invoice</p>
                 <p className={css({
-                   '@font-face': {
+                    '@font-face': {
                         fontFamily: "manrope",
                         src: 'url("/static/Manrope-Regular.ttf")'
                     },
@@ -116,34 +116,34 @@ const Invoice = () => {
                 })}>12 Apr 2023</p>
                 <div className={
                     css({
-                        display:'flex',
-                        justifyContent:'flex-start',
-                        alignItems:'center',
-                        width:'100%'
+                        display: 'flex',
+                        justifyContent: 'flex-start',
+                        alignItems: 'center',
+                        width: '100%'
                     })
                 }>
-                <Tag overrides={{
-                    Text: {
-                        style: {
-                            '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
-                            fontSize: '16px',
-                            fontWeight: '400'
+                    <Tag overrides={{
+                        Text: {
+                            style: {
+                                '@font-face': {
+                                    fontFamily: "open-sans",
+                                    src: 'url("/static/OpenSans-Regular.ttf")'
+                                },
+                                fontSize: '16px',
+                                fontWeight: '400'
+                            }
+                        },
+                        ActionIcon: {
+                            style: {
+                                margin: '0px'
+                            }
                         }
-                    },
-                    ActionIcon:{
-                        style:{
-                            margin:'0px'
-                        }
-                    }
-                }}
-                    closeable={false} color='#666666' variant={VARIANT.solid} kind={KIND.custom}>
-                    Payment Pending
-                </Tag>
+                    }}
+                        closeable={false} color='#666666' variant={VARIANT.solid} kind={KIND.custom}>
+                        Payment Pending
+                    </Tag>
                 </div>
-               
+
                 <p className={css({
                     '@font-face': {
                         fontFamily: "open-sans",
@@ -200,37 +200,37 @@ const Invoice = () => {
                 })}>27 Mar 2023</p>
                 <div className={
                     css({
-                        display:'flex',
-                        justifyContent:'flex-start',
-                        alignItems:'center',
-                        width:'100%'
+                        display: 'flex',
+                        justifyContent: 'flex-start',
+                        alignItems: 'center',
+                        width: '100%'
                     })
                 }>
-                <Tag overrides={{
-                    Text: {
-                        style: {
-                            '@font-face': {
-                        fontFamily: "open-sans",
-                        src: 'url("/static/OpenSans-Regular.ttf")'
-                    },
-                            fontSize: '16px',
-                            fontWeight: '400',
-                            textOverflow:''
+                    <Tag overrides={{
+                        Text: {
+                            style: {
+                                '@font-face': {
+                                    fontFamily: "open-sans",
+                                    src: 'url("/static/OpenSans-Regular.ttf")'
+                                },
+                                fontSize: '16px',
+                                fontWeight: '400',
+                                textOverflow: ''
+                            }
+                        },
+                        ActionIcon: {
+                            style: {
+                                margin: '0px',
+                                maxWidth: '150px',
+                                overflow: ''
+                            }
                         }
-                    },
-                    ActionIcon:{
-                        style:{
-                            margin:'0px',
-                            maxWidth:'150px',
-                            overflow:''
-                        }
-                    }
-                }}
-                    closeable={false} variant={VARIANT.solid} kind='positive'>
-                    Payment collected
-                </Tag>
+                    }}
+                        closeable={false} variant={VARIANT.solid} kind='positive'>
+                        Payment collected
+                    </Tag>
                 </div>
-               
+
                 <a href='#' className={css({
                     '@font-face': {
                         fontFamily: "open-sans",
