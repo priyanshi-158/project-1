@@ -12,7 +12,10 @@ const ItemCard2 = () => {
         width:'50%'
     })}>
      <h6 className={css({
-                fontFamily:'manrope',
+               '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'18px',
                 fontWeight:'600',
                 paddingBottom:'12px',
@@ -23,19 +26,28 @@ const ItemCard2 = () => {
                 justifyContent:'space-between'
             })}>
                 <p className={css({
-                        fontFamily: 'manrope',
+                       '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Milestone name</p>
                 <p className={css({
-                        fontFamily: 'manrope',
+                        '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Items</p>
                 <p  className={css({
-                        fontFamily: 'manrope',
+                        '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%'
@@ -47,19 +59,28 @@ const ItemCard2 = () => {
                 alignItems:'center'
             })}>
                 <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Concept</p>
                 <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Moodboard, Presentation design</p>
                 <p  className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
@@ -71,19 +92,28 @@ const ItemCard2 = () => {
                 alignItems:'center'
             })}>
                 <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Concept</p>
                 <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Moodboard, Presentation design</p>
                 <p  className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'

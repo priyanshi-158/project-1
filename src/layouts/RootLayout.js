@@ -1,11 +1,10 @@
 import React from 'react'
-import {Card, StyledBody, StyledThumbnail} from 'baseui/card'
+import {Card} from 'baseui/card'
 import imagecard from '../images/cardimage.png'
 import { Outlet } from 'react-router-dom'
 import { useStyletron} from 'baseui';
 import {
-  ParagraphLarge,
-  HeadingLarge,
+  HeadingLarge
 } from 'baseui/typography';
 const RootLayout = () => {
     const [css] = useStyletron();
@@ -35,7 +34,7 @@ const RootLayout = () => {
       <div className={css({paddingLeft:'24px'})}>
       <HeadingLarge color='white'>Sonal</HeadingLarge>
             <p className={css(
-              {color:'white'
+              {color:'white',
               }
             )}>
            Nunc nulla adipiscing volutpat tortor sed dui maecenas sed purus.

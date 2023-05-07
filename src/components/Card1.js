@@ -11,7 +11,7 @@ const Card1 = () => {
             borderRadius: '12px',
             margin: '10px',
             padding: '24px',
-            width:'100%'
+            width: '100%'
         })}>
             <div className={
                 css({
@@ -19,14 +19,20 @@ const Card1 = () => {
                 })
             }>
                 <p className={css({
-                    fontFamily: 'manrope',
+                    '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     paddingBottom: '6px',
                     marginBottom: '0px'
                 })}>Project start date</p>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     marginTop: '0px'
@@ -37,14 +43,20 @@ const Card1 = () => {
                     marginRight: '125px'
                 })}>
                 <p className={css({
-                    fontFamily: 'manrope',
+                    '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     paddingBottom: '6px',
                     marginBottom: '0px'
                 })}>Planned Duration</p>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     marginTop: '0px'

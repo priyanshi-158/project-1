@@ -23,7 +23,8 @@ const Home = () => {
   }, [])
 
   console.log(data);
-
+if(loader && loading )
+return null;
   if(loading && !loader){
     return(
       <Load data={data}/>

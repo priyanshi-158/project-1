@@ -14,7 +14,10 @@ const ItemCard1 = () => {
         width:'50%'
     })}>
         <h6 className={css({
-                fontFamily:'manrope',
+                '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'18px',
                 fontWeight:'600',
                 paddingBottom:'12px',

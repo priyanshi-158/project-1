@@ -18,11 +18,17 @@ const Status = () => {
         })}>
             <h1 className={css({
                 paddingRight:'5px',
-                fontFamily:'manrope',
+                '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'24px',
                 fontWeight:'600'
             })}>Project Status</h1>
-             <Tag overrides={{Text:{style: {fontFamily:'manrope',
+             <Tag overrides={{Text:{style: {'@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'14px',
                 fontWeight:'500'}}}}
               closeable={false} variant={VARIANT.solid} kind="positive">
@@ -41,7 +47,10 @@ const Status = () => {
         <div>
         <h1 className={css({
                 paddingRight:'5px',
-                fontFamily:'manrope',
+                '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'24px',
                 fontWeight:'600',
                 paddingLeft:'20px'

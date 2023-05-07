@@ -18,28 +18,40 @@ const Paycard = () => {
                 margin:'0'
             })}>
                 <p className={css({
-                        fontFamily: 'manrope',
+                        '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%',
                         color:'#333333'
                     })}>Payment Date</p>
                     <p className={css({
-                        fontFamily: 'manrope',
+                       '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%',
                         color:'#333333'
                     })}>Amount</p>
                 <p className={css({
-                        fontFamily: 'manrope',
+                        '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%',
                         color:'#333333'
                     })}>Items</p>
                 <p  className={css({
-                        fontFamily: 'manrope',
+                        '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                         fontSize: '12px',
                         fontWeight: '400',
                         width:'100%',
@@ -52,25 +64,37 @@ const Paycard = () => {
                 alignItems:'center'
             })}>
                 <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>27 Mar 2023</p>
                 <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>INR 12,345</p>
                 <p  className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'
                     })}>Moodboard design, month 1 retainer costs</p>
                     <a href="#" className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         width:'100%'

@@ -19,42 +19,60 @@ const Invoice = () => {
                 margin: '0'
             })}>
                 <p className={css({
-                    fontFamily: 'manrope',
+                    '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     width: '100%',
                     color: '#333333'
                 })}>Items</p>
                 <p className={css({
-                    fontFamily: 'manrope',
+                    '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     width: '100%',
                     color: '#333333'
                 })}>Proforma invoice</p>
                 <p className={css({
-                    fontFamily: 'manrope',
+                    '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     width: '100%',
                     color: '#333333'
                 })}>Proforma invoice Date</p>
                 <p className={css({
-                    fontFamily: 'manrope',
+                   '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     width: '100%',
                     color: '#333333'
                 })}>Status</p>
                 <p className={css({
-                    fontFamily: 'manrope',
+                    '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     width: '100%',
                     color: '#333333'
                 })}>Invoice</p>
                 <p className={css({
-                    fontFamily: 'manrope',
+                   '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                     fontSize: '12px',
                     fontWeight: '400',
                     width: '100%',
@@ -68,13 +86,19 @@ const Invoice = () => {
                 alignItems: 'center'
             })}>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
                 })}>Moodboard design, month 1 retainer costs</p>
                 <a href="#" className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
@@ -82,7 +106,10 @@ const Invoice = () => {
                     MFPI-12345678
                 </a>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
@@ -98,7 +125,10 @@ const Invoice = () => {
                 <Tag overrides={{
                     Text: {
                         style: {
-                            fontFamily: 'open-sans',
+                            '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                             fontSize: '16px',
                             fontWeight: '400'
                         }
@@ -115,13 +145,19 @@ const Invoice = () => {
                 </div>
                
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
                 })}>-</p>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
@@ -134,13 +170,19 @@ const Invoice = () => {
                 alignItems: 'center'
             })}>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
                 })}>Moodboard design, month 1 retainer costs</p>
                 <a href="#" className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
@@ -148,7 +190,10 @@ const Invoice = () => {
                     MFPI-12345678
                 </a>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
@@ -164,14 +209,20 @@ const Invoice = () => {
                 <Tag overrides={{
                     Text: {
                         style: {
-                            fontFamily: 'open-sans',
+                            '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                             fontSize: '16px',
-                            fontWeight: '400'
+                            fontWeight: '400',
+                            textOverflow:''
                         }
                     },
                     ActionIcon:{
                         style:{
-                            margin:'0px'
+                            margin:'0px',
+                            maxWidth:'150px',
+                            overflow:''
                         }
                     }
                 }}
@@ -181,13 +232,19 @@ const Invoice = () => {
                 </div>
                
                 <a href='#' className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'
                 })}>MFIN-12345678</a>
                 <p className={css({
-                    fontFamily: 'open-sans',
+                    '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                     fontSize: '16px',
                     fontWeight: '400',
                     width: '100%'

@@ -9,7 +9,10 @@ const Payments = () => {
     <div>
     <h1 className={css({
                 paddingRight:'5px',
-                fontFamily:'manrope',
+                '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'24px',
                 fontWeight:'600',
                 paddingLeft:'20px'
@@ -19,13 +22,19 @@ const Payments = () => {
     <div>
     <h1 className={css({
                 paddingRight:'5px',
-                fontFamily:'manrope',
+                '@font-face': {
+                        fontFamily: "manrope",
+                        src: 'url("/static/Manrope-Regular.ttf")'
+                    },
                 fontSize:'24px',
                 fontWeight:'600',
                 paddingLeft:'20px'
             })}>Invoices</h1>
             <p className={css({
-                        fontFamily: 'open-sans',
+                        '@font-face': {
+                        fontFamily: "open-sans",
+                        src: 'url("/static/OpenSans-Regular.ttf")'
+                    },
                         fontSize: '16px',
                         fontWeight: '400',
                         color:'#666666',

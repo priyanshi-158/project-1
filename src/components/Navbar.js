@@ -16,6 +16,9 @@ export default () => {
         setActiveKey(activeKey);
       }}
       activateOnFocus
+      overrides={{
+        TabBorder:{style:{width:'25%'}}
+      }}
     >
       <Tab title="Status">
         <Status/>
